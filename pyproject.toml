@@ -11,5 +11,8 @@ requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Maya Okafor" }]
 
+[project.scripts]
+latefee = "latefee.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
