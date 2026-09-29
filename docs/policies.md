@@ -8,3 +8,7 @@
 | `monthly_cap` | Most the fee can reach in one month. `None` means no cap. | $100.00 |
 
 Check local rules before raising caps. Some states limit late fees to a share of the monthly rent.
+
+## State limits (draft)
+
+Collecting state caps before we add a percent-of-rent option. Not final.
