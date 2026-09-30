@@ -20,6 +20,7 @@ class LateFeePolicy:
     flat_fee: Decimal = Decimal("50.00")
     daily_fee: Decimal = Decimal("10.00")
     monthly_cap: Decimal | None = Decimal("100.00")
+    # TODO(leo): percent-of-rent cap for states that limit fees to a share of rent
 
     def __post_init__(self) -> None:
         if self.grace_days < 0:
