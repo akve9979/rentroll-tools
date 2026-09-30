@@ -1,8 +1,8 @@
-# late-fee-calc
+# rentroll-tools
 
-[![CI](https://github.com/akve9979/late-fee-calc/actions/workflows/ci.yml/badge.svg)](https://github.com/akve9979/late-fee-calc/actions/workflows/ci.yml)
+[![CI](https://github.com/akve9979/rentroll-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/akve9979/rentroll-tools/actions/workflows/ci.yml)
 
-Works out late fees for residential leases, so the rent run and the lease terms always agree. We use it for the monthly late fee pass before charges go into the property management system.
+Billing helpers for our residential leases. Right now that's the `latefee` package: it works out late fees so the rent run and the lease terms always agree. We run it in the monthly late fee pass before charges go into the property management system.
 
 ## What it does
 - Applies each lease's late fee terms: grace days, a one-time flat fee, a daily fee, and a monthly cap
