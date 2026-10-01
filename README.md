@@ -43,3 +43,4 @@ Branch off `main`, open a pull request, and wait for CI and one review. Details 
 
 ## License
 MIT
+Tip: for a 5-day grace period use LateFeePolicy(grace_days=5);the fee then starts on the 6th.
